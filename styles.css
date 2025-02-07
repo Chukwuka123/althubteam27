@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    /* background-color: #E0DEF7; */
+
+}
+
+.header{
+    background-color: #f8f9fa;
+    padding:1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:auto;
+}
+
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap:1.5rem;
+}
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+/* .secondContainer{
+    background-color: #E0DEF7;
+} */
+
+
+.glasshouseContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.sideButtons .login, .sideButtons .signup{
+    text-decoration: none;
+    margin-left:10px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.sideButtons .signup{
+    background-color:black;
+    color:#f8f9fa
+}
+
+.sideButtons .login{
+    color:black;
+}
+
+.hero{
+margin-left: 155px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.cta{
+    background-color: black;
+    color:white;
+    padding:0.75rem 1.5rem;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.stats{
+    display:flex;
+    justify-content: space-around;
+    padding:2rem;
+    background-color: #f4f4f4;
+    margin-top:10px;
+    font-size:x-large;
+}
+
+.stats div{
+    text-align: center;
+}
+
+.howItWorks{
+    text-align:center;
+    padding:2rem;
+}
+
+.steps{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    font-size: 25px;
+}
+
+.step{
+    max-width:200px;
+}
+
+.glasshouseContainer{
+    display: flex;
+    align-items:center;
+    gap:10px;
+}
+
+.glasshouseContainer p{
+    font-size:32px;
+}
+
+.secondContainer{
+    background-color: #E0DEF7;
+    background-image: none;
+}
+
+.thirdContainer{
+    background-color: #E0DEF7;
+    background-image: none;
+}
+
+img{
+    color: #E0DEF7;
+}
+
+.logoSpace{
+   display: flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:1000px;
+  margin:auto;
+
+}
