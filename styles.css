@@ -79,6 +79,7 @@ margin-left: 155px;
     border:none;
     border-radius: 5px;
     cursor:pointer;
+    margin-bottom: 8px;
 }
 
 .stats{
@@ -86,7 +87,7 @@ margin-left: 155px;
     justify-content: space-around;
     padding:2rem;
     background-color: #f4f4f4;
-    margin-top:10px;
+    margin-top:15px;
     font-size:x-large;
 }
 
@@ -132,6 +133,7 @@ margin-left: 155px;
 
 img{
     color: #E0DEF7;
+    max-width:100%;
 }
 
 .logoSpace{
@@ -144,6 +146,87 @@ img{
 }
 
 .shift{
-    margin-left:155px;
+    margin-left:205px;
     margin-top : 15px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .sideButtons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .stats {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .logoSpace img {
+        width: 80px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .steps {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .stats {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }
